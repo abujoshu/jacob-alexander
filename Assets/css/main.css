@@ -1,0 +1,53 @@
+.hero-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+ion-icon .icon-large{
+    font-size: 200px;
+}
+
+.hero-bg {
+    background: linear-gradient(90deg, #1e3a8a, #1f2937);
+}
+
+
+.portfolio-card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+.form-group input:focus + label,
+.form-group textarea:focus + label {
+    transform: translateY(-20px);
+    font-size: 0.875rem;
+    color: #1e3a8a;
+}
+.section-bg-cool {
+    background: linear-gradient(90deg, #3b82f6, #38bdf8);
+}
+
+.section-bg-cool:hover {
+    background: linear-gradient(90deg, #2563eb, #06b6d4); /* Slightly darker shades on hover */
+}
+
+.section-bg-warm {
+    background: linear-gradient(90deg, #4b5563, #d6d3d1);
+}
+
+.section-bg-warm:hover {
+    background: linear-gradient(90deg, #6b7280, #f4f4f3);
+}
+
+/* FontAwesome or other icon libraries should be linked in the head or imported as needed */
+
+/* Social Media Icons - Hover Effects */
+.sos a:hover {
+    color: #f97316; /* Orange color for hover */
+    transform: scale(1.1);
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+
